@@ -1,12 +1,14 @@
-#gallery{
+.gallery{
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);;
-    column-gap: 10px;
-    row-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+
+    row-gap: 25px;
+
 
     justify-items: center;
 }
+
 
 header{
     display: flex;
@@ -17,4 +19,5 @@ header{
 #srch{
     display: flex;
     align-self: center;
+    padding: 20px 50px;
 }
